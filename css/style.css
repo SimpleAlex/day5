@@ -1,0 +1,109 @@
+body {
+  background: #EF5C54;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+.button {
+  background: #fff;
+  color: #212129;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+.button:hover {
+  background: #212129;
+  color: #fff;
+  transition: 300ms;
+}
+
+#myDiv {
+  background: #23ac68;
+  color: #fff;
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alert {
+  background: #3766bf;
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity .6s;
+  margin-bottom: 15px;
+}
+.second {
+  background: #e38619;
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity .6s;
+  margin-bottom: 15px;
+}
+.third {
+  background: #128ab6;
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity .6s;
+  margin-bottom: 15px;
+}
+.fourth {
+  background: #6c9e1b;
+  color: #fff;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity .6s;
+  margin-bottom: 15px;
+}
+.close {
+  color: #fff;
+  margin-left: 15px;
+  font-weight: bold;
+  float: right;
+  font-size: 24px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.close:hover {
+  color: #000;
+}
+.clear {
+  clear: both;
+}
